@@ -24,7 +24,7 @@ serve(async (req) => {
   }
   try {
     const { sport, score, metrics, flaws } = await req.json();
-    const apiKey = Deno.env.get("GEMINI_API_KEY");
+    const apiKey = Deno.env.get("AQ.Ab8RN6KMTneIMNztuk_xE7gODHJ8fP6aaJgiX3OyDL7K6mRSVg");
     if (!apiKey) return new Response(JSON.stringify({ error: "GEMINI_API_KEY not set" }), { status: 500, headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" } });
 
     const prompt = `You are a sports coach for ${sport}. A player just scored ${score}/100. Measured joint-angle scores (0-100, higher is better): ${JSON.stringify(metrics)}. Weakest areas (under 70%): ${JSON.stringify(flaws)}. Give short, specific coaching in 3-4 sentences: 1 thing they did well, their biggest mistake and why it matters, and 1 drill with sets/reps to fix it. Be encouraging but direct. Do not invent numbers beyond those given.`;
