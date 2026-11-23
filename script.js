@@ -35,7 +35,7 @@ let currentUser = null;
 // "https://thmzulwgpxinidzawnne.supabase.co/functions/v1/gemini-coach"
 // Until then, the site uses local rule-based coaching from the measured
 // angles - it still gives real, specific advice, just not from Gemini yet.
-const GEMINI_EDGE_FUNCTION_URL = "";
+const GEMINI_EDGE_FUNCTION_URL = "https://thmzulwgpxinidzawnne.supabase.co/functions/v1/gemini-coach";
 let currentCoachingText = null;
 
 const sportsData = {
