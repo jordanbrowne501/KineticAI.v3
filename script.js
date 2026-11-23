@@ -5,8 +5,8 @@
 // 2) Settings > API > copy Project URL and anon public key below
 // 3) Auth > Providers > enable Email
 // Never paste the service_role key here - only the anon public key.
-const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
-const SUPABASE_ANON_KEY = "YOUR-ANON-PUBLIC-KEY";
+const SUPABASE_URL = "https://thmzulwgpxinidzawnne.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_XFO5_MGm_zFyOthdnlnfwQ_4AnTUYi2";
 // V6 FIX: Supabase must NEVER kill the rest of the site.
 // If the URL/key are still placeholders, or the SDK fails to load,
 // or the new sb_publishable_ key is not accepted by this SDK version,
