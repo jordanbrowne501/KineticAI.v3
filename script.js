@@ -5,9 +5,11 @@
 // 2) Settings > API > copy Project URL and anon public key below
 // 3) Auth > Providers > enable Email
 // Never paste the service_role key here - only the anon public key.
-const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
-const SUPABASE_ANON_KEY = "YOUR-ANON-PUBLIC-KEY";
-const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const SUPABASE_URL = "const SUPABASE_URL = "https://thmzulwgpxinidzawnne.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_XFO5_MGm_zFyOthdnlnfwQ_4AnTUYi2";
+const supabaseClient = window.supabase.createClient("https://thmzulwgpxinidzawnne.supabase.co", sb_publishable_XFO5_MGm_zFyOthdnlnfwQ_4AnTUYi2
+
+);
 let currentUser = null;
 
 const sportsData = {
